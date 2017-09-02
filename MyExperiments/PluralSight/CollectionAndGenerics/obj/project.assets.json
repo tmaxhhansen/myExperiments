@@ -7037,15 +7037,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\darrenw\\.nuget\\packages\\": {}
+    "C:\\Users\\darre\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\darrenw\\Source\\Repos\\myExperiments\\MyExperiments\\PluralSight\\CollectionAndGenerics\\CollectionAndGenerics.csproj",
+      "projectUniqueName": "C:\\Users\\darre\\Source\\Repos\\myExperiments\\MyExperiments\\PluralSight\\CollectionAndGenerics\\CollectionAndGenerics.csproj",
       "projectName": "CollectionAndGenerics",
-      "projectPath": "C:\\Users\\darrenw\\Source\\Repos\\myExperiments\\MyExperiments\\PluralSight\\CollectionAndGenerics\\CollectionAndGenerics.csproj",
-      "outputPath": "C:\\Users\\darrenw\\Source\\Repos\\myExperiments\\MyExperiments\\PluralSight\\CollectionAndGenerics\\obj\\",
+      "projectPath": "C:\\Users\\darre\\Source\\Repos\\myExperiments\\MyExperiments\\PluralSight\\CollectionAndGenerics\\CollectionAndGenerics.csproj",
+      "outputPath": "C:\\Users\\darre\\Source\\Repos\\myExperiments\\MyExperiments\\PluralSight\\CollectionAndGenerics\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
