@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    
+	<TargetFramework>netstandard1.6</TargetFramework>
+	<AssemblyName>ASH.WebPlatform.Auth.OAuth2.Core</AssemblyName>
+	<PackageId>ASH.WebPlatform.Auth.OAuth2.Core</PackageId>
+	<NetStandardImplicitPackageVersion>1.6.1</NetStandardImplicitPackageVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'netstandard1.6' ">
+    <DefineConstants>TRACE;DEBUG;NETSTANDARD1_6</DefineConstants>
+  </PropertyGroup>
+  
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.6'">
+	<PackageReference Include="ServiceStack.Core" Version="1.0.40" />
+	<PackageReference Include="System.Net.Http" Version="4.3.2" />
+	<PackageReference Include="DotNetOpenAuth.Core" Version="4.3.4.13329" />
+  </ItemGroup>
+  
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'net45' ">
+    <DefineConstants>$(DefineConstants);NET45</DefineConstants>
+  </PropertyGroup>
+  
+  <ItemGroup Condition="'$(TargetFramework)' == 'net45'">
+	<PackageReference Include="ServiceStack" Version="4.5.8" />
+	<PackageReference Include="DotNetOpenAuth.Ultimate" Version="4.3.4.13329" />
+  </ItemGroup>
+
+</Project>

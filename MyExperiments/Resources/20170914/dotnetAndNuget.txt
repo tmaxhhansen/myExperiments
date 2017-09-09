@@ -1,0 +1,32 @@
+dotnet pack C:\Projects\ASH-TFS12\Wellness-External\Branches\PBI#146921_WTFWebPlatform\ASH.WebPlatform.Auth.OAuth2.Core --output C:\Projects\ASH-TFS12\Wellness-External\Branches\PBI#146921_WTFWebPlatform\ASH.WebPlatform.Auth.OAuth2.Core\Nuget
+
+nuget push C:\Projects\ASH-TFS12\Wellness-External\Branches\PBI#146921_WTFWebPlatform\ASH.WebPlatform.Auth.OAuth2.Core\Nuget\*.nupkg  -source http://nuget.ashn.com/api/v2/package FitnessNuget
+
+
+
+nuget pack C:\Projects\ASH-TFS12\Wellness-External\Branches\PBI#146921_WTFWebPlatform\ASH.WebPlatform.Auth.OAuth2.Core\ASH.WebPlatform.Auth.OAuth2.Core.nuspec -output C:\Projects\ASH-TFS12\Wellness-External\Branches\PBI#146921_WTFWebPlatform\ASH.WebPlatform.Auth.OAuth2.Core\Nuget
+
+nuget push C:\Projects\ASH-TFS12\Wellness-External\Branches\PBI#146921_WTFWebPlatform\ASH.WebPlatform.Auth.OAuth2.Core\Nuget\*.nupkg  -source http://nuget.ashn.com/api/v2/package FitnessNuget
+
+
+
+dotnet pack C:\Projects\ASH-TFS12\Wellness-External\Branches\PBI#146921_WTFWebPlatform\ASH.WebPlatform.Auth.OAuth2.Core --output C:\Projects\ASH-TFS12\Wellness-External\Branches\PBI#146921_WTFWebPlatform\ASH.WebPlatform.Auth.OAuth2.Core\Nuget
+
+dotnet nuget push C:\Projects\ASH-TFS12\Wellness-External\Branches\PBI#146921_WTFWebPlatform\ASH.WebPlatform.Auth.OAuth2.Core\Nuget\*.nupkg  -s http://nuget.ashn.com/api/v2/package -k FitnessNuget
+
+
+
+
+
+nuget pack C:\Projects\ASH-TFS12\Wellness-External\Branches\PBI#146921_WTFWebPlatform\ASH.WebPlatform.Auth.OAuth2.Core\ASH.WebPlatform.Auth.OAuth2.Core.nuspec -output C:\
+
+nuget push C:\ASH.WebPlatform.Auth.OAuth2.WTF.1.0.0.nupkg  -source http://nuget.ashn.com/api/v2/package FitnessNuget
+
+dotnet pack --output C:\
+
+
+push $(Build.ArtifactStagingDirectory)/Nuget/*.nupkg  -source http://nuget.ashn.com/api/v2/package FitnessNuget
+
+
+
+pack $(build.sourcesDirectory)\Branches\PBI#146921_WTFWebPlatform\ASH.WebPlatform.Auth.OAuth2.Core --no-build -c $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)\Nuget
