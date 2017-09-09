@@ -1,0 +1,7 @@
+C:\Users\darrenw\Source\Repos\myExperiments\MyExperiments\NugetExperiment\bin\Debug\netcoreapp1.1\NugetExperiment.deps.json
+C:\Users\darrenw\Source\Repos\myExperiments\MyExperiments\NugetExperiment\bin\Debug\netcoreapp1.1\NugetExperiment.dll
+C:\Users\darrenw\Source\Repos\myExperiments\MyExperiments\NugetExperiment\bin\Debug\netcoreapp1.1\NugetExperiment.pdb
+C:\Users\darrenw\Source\Repos\myExperiments\MyExperiments\NugetExperiment\obj\Debug\netcoreapp1.1\NugetExperiment.csprojResolveAssemblyReference.cache
+C:\Users\darrenw\Source\Repos\myExperiments\MyExperiments\NugetExperiment\obj\Debug\netcoreapp1.1\NugetExperiment.AssemblyInfo.cs
+C:\Users\darrenw\Source\Repos\myExperiments\MyExperiments\NugetExperiment\obj\Debug\netcoreapp1.1\NugetExperiment.dll
+C:\Users\darrenw\Source\Repos\myExperiments\MyExperiments\NugetExperiment\obj\Debug\netcoreapp1.1\NugetExperiment.pdb

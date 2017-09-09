@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ASH.WebPlatform.Auth.OAuth2.WTF</id>
+    <version>1.0.0</version>
+    <authors>ASH.WTF</authors>
+    <owners>ASH.WTF</owners>
+    
+    <!--<licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This package supports both .Net and .Net Core frameworks</description>
+    <releaseNotes>First Release</releaseNotes>
+    <copyright>Copyright 2017 (c) American Specialty Health Corporation. All rights reserved.</copyright>
+    <tags>WebPlatform WebPlatform.Core</tags>
+
+    <dependencies>
+      <group>
+        <dependency id="Validation" version="2.4.15" />
+        <dependency id="Newtonsoft.Json" version="10.0.3" />
+      </group>
+
+      <group targetFramework="net45">
+        <dependency id="ServiceStack" version="4.5.14" />
+      </group>
+
+      <group targetFramework="netstandard1.6">
+        <dependency id="ServiceStack.Core" version="1.0.40" />
+      </group>
+    </dependencies>
+
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Net" />
+      <frameworkAssembly assemblyName="System.Net.Http" />
+    </frameworkAssemblies>
+  </metadata>
+
+  <files>
+    <file src="**\net45\ASH.WebPlatform.Auth.OAuth2.Core.dll" target="lib\net45\"/>
+    <file src="**\netstandard1.6\ASH.WebPlatform.Auth.OAuth2.Core.dll" target="lib\netstandard1.6\"/>
+  </files>
+
+</package>
